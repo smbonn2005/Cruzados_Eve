@@ -1,0 +1,28 @@
+CRUZADOS Recruitment Process
+
+Applicant fills out app on website.
+
+ - Option for both English and Spanish Applications
+
+ - Questions will include:
+	- Main Character Name
+	- Name of all Alts
+	- Name of Alts appling to Corp
+	- Previous Corps
+	- How long playing Eve
+	- What are your Goals in Eve?
+	- How did you hear about CRUZA?
+	- PVP/PVE? 1-10
+	- What do you enjoy about Eve?
+	- Why do you think you'd be a good fit for CRUZA?
+
+ - Walkthrough for ESIKnife and have Applicants input API's for all characters, not just applying. 
+(https://beta.esiknife.space/settings/grant/168453585:G-FccIorRktN68c2)
+
+ - Reviewer looks at the Application & API's and fills out a Questionaire to hand up to the Recruitment Leads. Questionaire includes skills, mails, wallet, transactions, market and more to get a full view of the Applicant's actions in the game. Reviewer also has the option to talk to the Applicant on Discord both/either text or voice, and figure out if they will fit in CRUZA or if they pose a threat to Corp/GSF.
+
+ - Reviewer will then make their suggestion at the bottom of the Questionaire and send it up to Recruitment Leads to review.
+
+ - At that point, Recruitment Leads review, and if there are more questions they can send it back down to the Recruiter, or if there are no more questions, can give the final yes or no to the Applicant. If yes, the Lead will send Corp invites to just the characters listed in the Application, any further characters later on will need to fill out an Alt application.
+
+ - I am currently working on a website that will streamline a lot of this process, as most of it will be automated and kept in the website itself. Until the website is done, the process will be a little bit rougher and depend on Discord a lot more as a recruitment tool.
