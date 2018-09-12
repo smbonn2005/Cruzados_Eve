@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -20,7 +23,17 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Generic</a></li>
+					<!-- Aquí hay que mirar de poner unos if -->
+					<?php 
+					if($_SESSION['auth_characterid']){
+					?>
+					<li><a href="users/whoami.php">Quien soy</a></li>
+					<li><a href="users/logout.php">Logout</a></li>
+					<?php }else{ ?>
+					<li><a href="users/devlogin.php">Login</a></li>
+					<?php } ?>
+					
+					
 					<li><a href="elements.html">Elements</a></li>
 				</ul>
 			</nav>
