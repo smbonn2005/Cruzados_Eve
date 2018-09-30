@@ -22,19 +22,24 @@ session_start();
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<!-- Aquí hay que mirar de poner unos if -->
-					<?php 
+					<?php
 					if($_SESSION['auth_characterid']){
 					?>
-					<li><a href="users/whoami.php">Quien soy</a></li>
+					<li><a href="users/whoami.php">My Applications</a></li>
 					<li><a href="users/logout.php">Logout</a></li>
 					<?php }else{ ?>
-					<li><a href="users/devlogin.php">Login</a></li>
+					<li><a href="users/devlogin.php">Apply to Cruzados</a></li>
+					<li><a href="http://seat.cruzados.space">Corp SeAT</a></li>
+					<br>
+					<li><b>USEFUL LINKS</b></li>
+					<li><a href="http://www.eveonline.com">Eve Online Official Site</a></li>
+					<li><a href="http://www.goonfleet.com">Goonfleet Forums</a></li>
+					<li><a href="http://www.evepraisal.com">Evepraisal</a></li>
+					<li><a href="http://www.evemarketer.com">Eve Marketer</a></li>
+					<li><a href="http://www.adashboard.info">Adashboard</a></li>
 					<?php } ?>
-					
-					
-					<li><a href="elements.html">Elements</a></li>
 				</ul>
 			</nav>
 
@@ -65,7 +70,6 @@ session_start();
 							<p>Cruzados is an English & Spanish speaking Corp, proud member of the Goonswarm Federation, who dwell deep in null security space, beyond the reach of the four great Empires, and far from the protection of CONCORD. Together with our allies, we have forged our own Empire which knows no equal.</p>
 						</div>
 						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
 						</footer>
 					</article>
 				</div>
@@ -91,7 +95,6 @@ session_start();
 							</ul>
 						</div>
 						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
 						</footer>
 					</article>
 				</div>
@@ -103,62 +106,33 @@ session_start();
 				<div class="inner">
 					<article class="box">
 						<header>
-							<h2>Varius a cursus aliquet</h2>
-							<p>11.11.2016</p>
+							<h2>How to Join Cruzados?</h2>
+							<p>___________________________</p>
 						</header>
 						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+							<ul>
+							  <li>Visit <a href="apply.cruzados.space"> apply.cruzados.space </a> or click on the link in the sidebar. </li>
+							  <li>Follow the instructions on the Application page, and fill out the form to the best of your ability.</li>
+							  <li>Once your API keys are registered and your application is submitted, our recruitment team will process your membership request. You will need to register API keys for every character you have, not just the applying characters. This process can sometimes take up to a week to complete</li>
+							  <li>Once processed, you will get an in game notification letting you know that you have been accepted!</li>
+							  <li>You will receive a welcome mail with all instructions needed to make sure you get safely to our home station, and get all the communication tools setup properly.</li>
+							  <li>You're In! Go fly some spaceships, make ISK, and kill our enemies!</li>
+							</ul>
 						</div>
+
 						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
+							<br />
+							<a href="apply.php" class="button alt">APPLY NOW!</a>
 						</footer>
 					</article>
 				</div>
 				<a href="#four" class="more">Learn More</a>
 			</section>
 
-		<!-- Four -->
-			<section id="four" class="wrapper post bg-img" data-bg="banner3.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Luctus blandit mi lectus in nascetur</h2>
-							<p>10.30.2016</p>
-						</header>
-						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
-						</div>
-						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-			</section>
-
 		<!-- Footer -->
+		<section id="four">
 			<footer id="footer">
 				<div class="inner">
-
-					<h2>Contact Me</h2>
-
-					<form action="#" method="post">
-
-						<div class="field half first">
-							<label for="name">Name</label>
-							<input name="name" id="name" type="text" placeholder="Name">
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input name="email" id="email" type="email" placeholder="Email">
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-						</div>
-						<ul class="actions">
-							<li><input value="Send Message" class="button alt" type="submit"></li>
-						</ul>
-					</form>
 
 					<ul class="icons">
 						<li><a href="#" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
@@ -172,6 +146,7 @@ session_start();
 
 				</div>
 			</footer>
+    </section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
