@@ -22,19 +22,24 @@ session_start();
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Inicio</a></li>
+					<li><a href="index.php">Inicio</a></li>
 					<!-- Aquí hay que mirar de poner unos if -->
-					<?php 
+					<?php
 					if($_SESSION['auth_characterid']){
 					?>
-					<li><a href="users/whoami.php">Quienes somos</a></li>
+					<li><a href="users/whoami.php">Mis solicitudes</a></li>
 					<li><a href="users/logout.php">Logout</a></li>
 					<?php }else{ ?>
-					<li><a href="users/devlogin.php">Login</a></li>
+					<li><a href="users/devlogin.php">Unirse a Cruzados</a></li>
+					<li><a href="http://seat.cruzados.space">SeAT de Corp</a></li>
+					<br>
+					<li><b>LINKS ÚTILES</b></li>
+					<li><a href="http://www.eveonline.com">Eve Online - Web Oficial</a></li>
+					<li><a href="http://www.goonfleet.com">Goonfleet - Foro</a></li>
+					<li><a href="http://www.evepraisal.com">Evepraisal</a></li>
+					<li><a href="http://www.evemarketer.com">Eve Marketer</a></li>
+					<li><a href="http://www.adashboard.info">Adashboard</a></li>
 					<?php } ?>
-					
-					
-					<li><a href="elements.html">Elementos</a></li>
 				</ul>
 			</nav>
 
@@ -65,7 +70,6 @@ session_start();
 							<p>Cruzados es una corporación Hispana y Inglesa. Pertenecemos a la alianza de Goonswarm Federation la cual vive en nullsec, lejos de los cuatro gran imperios y de la protección de CONCORD. Junto con nuestros aliados hemos formado nuestro propio Imperio el cual nadie hasta la fecha ha logrado superar.</p>
 						</div>
 						<footer>
-							<a href="generic.html" class="button alt">Saber mas</a>
 						</footer>
 					</article>
 				</div>
@@ -91,7 +95,6 @@ session_start();
 							</ul>
 						</div>
 						<footer>
-							<a href="generic.html" class="button alt">Saber mas</a>
 						</footer>
 					</article>
 				</div>
@@ -103,62 +106,33 @@ session_start();
 				<div class="inner">
 					<article class="box">
 						<header>
-							<h2>Varius a cursus aliquet</h2>
-							<p>11.11.2016</p>
+							<h2>Como unirse a Cruzados?</h2>
+							<p>___________________________</p>
 						</header>
 						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+							<ul>
+							  <li>Dirigete a <a href="apply.cruzados.space"> apply.cruzados.space </a> or haz click en el link del lateral. </li>
+							  <li>Sigue las instrucciones de la pagina y llena el formulario lo mejor que puedas.</li>
+							  <li>Una vez tu API esté registrada y tu formulario enviado, nuestro equipo de reclutamiento procederá con tu solicitud. Necesitarás registrar tu API para cada cuenta que tengas, no solo la principal.</li>
+							  <li>Una vez revisado, recebirás una notificación dentro del juego haciendote saber si has sido aceptado!</li>
+							  <li>Recibirás un email de bienvenida con todas las instrucciones necesarias para mudarte a nuestro hogar y configurar los principales programas de comunicación.</li>
+							  <li>Listo! Ve a pilotar, hacer ISKs y matar a nuestros enemigos!</li>
+							</ul>
 						</div>
-						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-				<a href="#four" class="more">Learn More</a>
-			</section>
 
-		<!-- Four -->
-			<section id="four" class="wrapper post bg-img" data-bg="banner3.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Luctus blandit mi lectus in nascetur</h2>
-							<p>10.30.2016</p>
-						</header>
-						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
-						</div>
 						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
+							<br />
+							<a href="apply.php" class="button alt">UNETE AHORA!</a>
 						</footer>
 					</article>
 				</div>
+				<a href="#four" class="more">Saber mas</a>
 			</section>
 
 		<!-- Footer -->
+		<section id="four">
 			<footer id="footer">
 				<div class="inner">
-
-					<h2>Contacto</h2>
-
-					<form action="#" method="post">
-
-						<div class="field half first">
-							<label for="name">Nombre</label>
-							<input name="name" id="name" type="text" placeholder="Name">
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input name="email" id="email" type="email" placeholder="Email">
-						</div>
-						<div class="field">
-							<label for="message">Mensaje</label>
-							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-						</div>
-						<ul class="actions">
-							<li><input value="Enviar Mensaje" class="button alt" type="submit"></li>
-						</ul>
-					</form>
 
 					<ul class="icons">
 						<li><a href="#" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
@@ -172,6 +146,7 @@ session_start();
 
 				</div>
 			</footer>
+    </section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
